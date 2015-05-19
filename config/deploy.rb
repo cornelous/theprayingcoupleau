@@ -2,23 +2,23 @@
 lock '3.4.0'
 
 # require Slack config
-require './config/slack'
+#require './config/slack'
 
 ############################################
 # Setup WordPress
 ############################################
 
-set :wp_user, "yourname" # The admin username
-set :wp_email, "yourname@example.com" # The admin email address
-set :wp_sitename, "WP Deploy" # The site title
-set :wp_localurl, "http://wpdeploy" # Your local environment URL
+set :wp_user, "couples" # The admin username
+set :wp_email, "couples@theprayingcouple.com" # The admin email address
+set :wp_sitename, "The Praying Couple" # The site title
+set :wp_localurl, "http://localhost/theprayingcouple" # Your local environment URL
 
 ############################################
 # Setup project
 ############################################
 
-set :application, "wp-deploy"
-set :repo_url, "git@github.com:Mixd/wp-deploy.git"
+set :application, "theprayingcouple"
+set :repo_url, "https://github.com/cornelous/theprayingcoupleau.git"
 set :scm, :git
 
 set :git_strategy, SubmoduleStrategy

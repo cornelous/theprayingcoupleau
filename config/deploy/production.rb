@@ -3,9 +3,18 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://www.example.com"
-server "XXX.XXX.XX.XXX", user: "SSHUSER", roles: %w{web app db}
-set :deploy_to, "/deploy/to/path"
+set :stage_url, "http://theprayingcouple.com.au"
+server "54.68.244.159", user: "ubuntu", roles: %w{web app db}
+
+set :pty, true
+
+set :ssh_options, {
+  forward_agent: true,
+  auth_methods: ["publickey"],
+  keys: ["/home/clive/Desktop/.ssh/NewsAfricaTODAY.pem"]
+}
+
+set :deploy_to, "/var/www/html/theprayingcouple.com.au"
 
 ############################################
 # Setup Git
