@@ -1,0 +1,14 @@
+1.0.2 - 13/01/2015
+* Fix Archive page layout issue
+
+1.0.1 - 9/01/2015
+* Sanitize all Customizer settings
+* Remove 'recent comments' widget style
+* Fix unusable search widget
+* Fix some data validation
+* Add style to the Sticky Post
+* add support 'add_theme_support( 'title-tag' );'
+* Fix Theme Test Unit issue
+
+1.0.0 - 25/12/2014
+* Initial Release

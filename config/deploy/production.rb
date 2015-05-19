@@ -3,7 +3,7 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://theprayingcouple.com.au"
+set :stage_url, "http://cornelo.us"
 server "54.68.244.159", user: "ubuntu", roles: %w{web app db}
 
 set :pty, true
@@ -14,7 +14,7 @@ set :ssh_options, {
   keys: ["/home/clive/Desktop/.ssh/NewsAfricaTODAY.pem"]
 }
 
-set :deploy_to, "/var/www/html/theprayingcouple.com.au"
+set :deploy_to, "/var/www/html/cornelo.us"
 
 ############################################
 # Setup Git

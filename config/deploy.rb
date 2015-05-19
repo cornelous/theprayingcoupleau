@@ -11,13 +11,13 @@ lock '3.4.0'
 set :wp_user, "couples" # The admin username
 set :wp_email, "couples@theprayingcouple.com" # The admin email address
 set :wp_sitename, "The Praying Couple" # The site title
-set :wp_localurl, "http://localhost/theprayingcouple" # Your local environment URL
+set :wp_localurl, "http://localhost/cornelous" # Your local environment URL
 
 ############################################
 # Setup project
 ############################################
 
-set :application, "theprayingcouple"
+set :application, "cornelous"
 set :repo_url, "https://github.com/cornelous/theprayingcoupleau.git"
 set :scm, :git
 

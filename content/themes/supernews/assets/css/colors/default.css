@@ -1,0 +1,99 @@
+/**
+ * 1.0 Color
+ * -----------------------------------------------------------------------------
+ */
+
+a:link,
+a:visited,
+#secondary-nav ul.sf-menu li li a:hover,
+#primary-nav ul.sf-menu li li a:hover,
+#primary-nav ul li a:hover,
+#primary-nav ul li.current_item a
+#secondary-nav .sf-menu li li a:hover,
+.header-cart li a:hover,
+.entry-meta .entry-category a,
+.pagination .page-numbers:hover,
+.pagination .page-numbers.current,
+.widget_tabs .tab-content .entry-title a:hover,
+#site-bottom a:hover,
+.sidebar2 .widget_tabs .tabs-nav li.active a,
+.entry-title a:hover,
+.category-box ul li strong a:hover,
+.section-title a:hover,
+.widget_latest_comments a:hover .name,
+.related-posts ul li a:hover .entry-title,
+ul.products li.product a:hover h3,
+#secondary .widget_social a:hover span strong,
+.entry-author .name a:hover,
+.header-search a:hover,
+#secondary .widget_tabs #tab3 li a:hover strong,
+.entry-footer .author-bio .name a:hover {
+	color: #E3228C;
+}
+.widget_tabs .entry-title a:hover,
+.posts .cat-posts .view-more a,
+.posts .cat-posts a:hover .entry-title {
+	color: #E3228C !important;
+}
+
+/* Link Hover */
+#news-ticker .news-item a:hover, 
+#breadcrumbs a:hover,
+.sidebar1 .widget a:hover,
+.sidebar2 .widget a:hover,
+.twitter-widget a:hover,
+#footer .widget a:hover,
+.entry-content a:hover,
+#comments h2 a:hover,
+#comments .name a:hover,
+.comment-entry p a:hover,
+.woocommerce-review-link:hover,
+table.cart td.product-remove .remove:hover,
+table.cart td.product-name a:hover {
+	color: #ff6644;
+}
+/* Icon Hover */
+li a:hover .fa-star,
+li.active .fa-star {
+	color: #E3228C;
+}
+li a:hover .fa-clock-o,
+li.active .fa-clock-o {
+	color: #ff6644;
+}
+li a:hover .fa-comments,
+li.active .fa-comments {
+	color: #71a42f;
+}
+li a:hover .fa-tags,
+li.active .fa-tags {
+	color: #E3228C;
+}
+/**
+ * 2.0 Background
+ * -----------------------------------------------------------------------------
+ */
+
+ #secondary-nav ul li a:hover,
+#secondary-nav ul li.current_item a,
+.pagination .prev,
+.pagination .next,
+#respond button,
+a:hover .video-icon,
+.widget_tabs #tab4 a:hover,
+.button, 
+a.button, 
+button, 
+input[type=button], 
+input[type=submit] {
+	background-color: #E3228C;
+}
+/**
+ * 3.0 Border Color
+ * -----------------------------------------------------------------------------
+ */
+#featured-content .jcarousel-control-prev:hover,
+#featured-content .jcarousel-control-next:hover,
+.see-all a:hover {
+	border-color: #E3228C;
+}
